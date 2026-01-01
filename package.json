@@ -1,0 +1,110 @@
+{
+  "name": "@zos-apps/teams",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.teams",
+    "name": "Microsoft Teams",
+    "icon": "👥",
+    "category": "communication",
+    "description": "Chat, meet, and collaborate",
+    "permissions": [
+      "camera",
+      "microphone",
+      "network"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 750
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "chat",
+      "meetings",
+      "collaboration",
+      "microsoft"
+    ],
+    "about": "Microsoft Teams for chat, meetings, and collaboration.",
+    "help": [
+      "Join a team",
+      "Start a chat",
+      "Schedule a meeting"
+    ],
+    "docs": "https://zos-apps.github.io/teams",
+    "site": "https://github.com/zos-apps/teams",
+    "features": [
+      "Chat",
+      "Video meetings",
+      "File sharing",
+      "Channels",
+      "Apps integration"
+    ],
+    "shortcuts": [
+      "⌘N New chat",
+      "⌘E Search",
+      "⌘⇧M Mute"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/teams"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/teams/issues",
+    "changelog": "https://github.com/zos-apps/teams/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Chat, meet, and collaborate",
+  "homepage": "https://zos-apps.github.io/teams",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/teams.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/teams/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "teams",
+    "chat",
+    "meetings",
+    "collaboration",
+    "microsoft"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
